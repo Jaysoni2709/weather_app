@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLink}}
+    </head>
+<body>
+    <!--navbar by express partials -->
+    {{>navbar}}
+
+    <!--Main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side div-->
+                    <div class="col-md-6 col-12 main_header_left align-items-center" >
+                        <figure>
+                            <img src="images/jay1.png" alt="udai" class="img-field"  title="">
+                        </figure>
+                    </div>
+
+                    <!--right side-->
+                    <div class="col-md-6 col-12 main_header_right">
+                        <p>Welcome to About Page</p>
+                        <h1>I am <span class="textclr"> Node js And Express js  </span> Devloper </h1>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer by express partials-->
+    {{>footer}}
+</body>
+</html>
